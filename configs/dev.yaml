@@ -1,0 +1,16 @@
+azure:
+  # Cloud Name e.g. AzureCloud, AzureChinaCloud
+  cloudName: 
+  # Azure Directory in ID format
+  tenantId:
+  # Subscription ID
+  subscriptionId:
+  # Name of the resource group
+  resourceGroup:
+  servicePrincipal:
+    # Application ID of service principal
+    appId:
+  # Absolute path to client certificate in .pem format
+  certPath: 
+  # Password of service principal
+  password: 
