@@ -14,7 +14,8 @@ var helloParams = Hello{}
 
 func initHello(parent *cobra.Command) {
 	parent.AddCommand(helloCmd)
-	helloCmd.Flags().StringVarP(&helloParams.message, "message", "m", "You didnt provide a message. Try to execute 'helper hello -m Awesome CLI'", "The message, that should be printed")
+	helloCmd.Flags().StringVarP(&helloParams.message, "message", "m", "You didnt provide a message. Try to execute 'helper hello -m Awesome CLI'",
+	"The message, that should be printed")
 }
 
 var helloCmd = &cobra.Command{
